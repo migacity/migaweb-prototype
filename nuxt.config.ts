@@ -5,4 +5,9 @@ export default defineNuxtConfig({
     buildModules: [
         'nuxt-windicss',
     ],
+    meta: {
+        link: [
+            { rel: 'icon', type: "image/svg+xml", href: 'favicon.svg' }
+        ],
+    },
 })
